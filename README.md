@@ -10,7 +10,8 @@ Elle est constituée de 3 étapes.
 Enfin, il y a le mode mini-jeu. Dans l'énoncé, il ait demandé de faire un système de combat permettant de donner des points XP. J'ai donc fait un petit mini-jeu pour que le joueur puisse "combattre" contre l'ordinateur et qu'il ait une chance de gagner des XP. 
 L'enjeu étant qu'il peut acheter l'arme la plus puissante, la baguette magique, que s'il a assez de points XP. 
 
-
+On retrouve notamment dans le projet une classe abstraite pour les étapes du mode aventure en générale puis des classes dédiées à chaque étape reprenant les méthodes que j'ai défini dans la classe abstraite Étape. 
+De même, pour les personnages, j'ai essayé de structurer avec des classes. On a une classe Personnage et des classes qui étendent celle-ci comme les classes Sorciere ou Magicien. J'ai crée une interface (classe Humain) dans l'optique de pouvoir avoir la possibilité de faire une classe Monstres ou Animaux par exemple. De cette façon, j'ai la possibilité d'avoir les méthodes que je veux utiliser pour tous les personnages (dans l'interface). Puis d'avoir les méthodes dont j'ai besoin uniquement pour un type de personnage. Il en va de même pour les armes, je les ai structuré de la même manière c'est à dire avec des sous classes. 
 
 Voici ce que l'on a dans la console, quand j'exécute mon code : 
 
