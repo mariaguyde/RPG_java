@@ -1,5 +1,4 @@
-# RPG_java
-Mini-projet : RPG en Java (POO)
+# Mini-projet : RPG en Java (POO)
 
 Le mini-projet consiste à créer un RPG basé sur des interactions textuelles en JAVA.
 L'utilisateur doit d'abord créer un personnage en choissisant un nom ainsi que le rôle qu'il veut lui attribuer. 
